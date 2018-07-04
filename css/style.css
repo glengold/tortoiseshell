@@ -136,6 +136,7 @@ h1 {
     height: auto;
     margin: 0.77rem;
     font-size: 0.77rem;
+    flex-wrap: wrap;
   }
 }
 .info {
@@ -157,6 +158,7 @@ h1 {
 @media screen only and (max-width: 560) {
   .info {
     width: 100%;
+    flex-wrap: wrap;
   }
   .info .title {
     width: 100%;
@@ -173,7 +175,7 @@ footer {
   display: flex;
   align-items: center;
   background-color: azure;
-  padding:4rem;
+  padding: 4rem;
 }
 footer img {
   height: 1.5rem;
