@@ -88,6 +88,7 @@ h1 {
   .menu ul.truncated-menu {
     display: block;
   }
+}
 @media screen only and (max-width: 560px) {
   header div span {
     display: none;
