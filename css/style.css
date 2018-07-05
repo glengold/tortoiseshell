@@ -136,6 +136,9 @@ h1 {
 .service img.paper-icon {
   width: 3.5rem;
 }
+img {
+  border-style: none;
+}
 @media screen only and (max-width: 560px) {
   .service {
     height: auto;
