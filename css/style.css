@@ -35,8 +35,8 @@ nav div {
 }
 nav img {
   height: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 nav ul {
   margin-right: 1rem;
@@ -69,12 +69,12 @@ h1 {
     height: 22rem;
     padding-top: 0;
   }
-  nav .container {
+  nav.container {
     max-width: 100%;
   }
   .main-banner {
     padding: 0.75rem 4rem;
-    line-height: 5rem;
+    margin-top: 5rem;
     margin-right: 2rem;
   }
   .main-banner h1 {
@@ -100,7 +100,7 @@ h1 {
   .main-banner {
     padding: 0 1rem;
     margin: 9rem auto 0 auto;
-    width: 100%
+    width: 100%;
   }
   .main-banner h1 {
     font-size: 1rem;
@@ -116,6 +116,7 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     margin-top: 3rem;
+    flex-wrap: wrap;
   }
 }
 .service {
@@ -140,7 +141,6 @@ h1 {
     height: auto;
     margin: 0.77rem;
     font-size: 0.77rem;
-    flex-wrap: wrap;
   }
 }
 .info {
@@ -162,13 +162,13 @@ h1 {
 @media screen only and (max-width: 560) {
   .info {
     width: 100%;
-    flex-wrap: wrap;
   }
   .info .title {
     width: 100%;
     max-width: none;
     margin-right: 0;
     text-align: center;
+    flex-wrap: wrap;
   }
   .info p {
     padding: 1rem;
