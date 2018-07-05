@@ -110,7 +110,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-@media screen only and (max-width: 560) {
+@media screen only and (max-width: 560px) {
   .supporting {
     flex-direction: column;
     justify-content: flex-start;
@@ -128,15 +128,16 @@ h1 {
   width: 5rem;
   margin: 3rem;
   text-align: center;
+  width: 100%;
 }
 .service img {
   width: 5rem;
   margin-bottom: 1rem;
 }
 .service img.paper-icon {
-  width: 5rem;
+  width: 3.5rem;
 }
-@media screen only and (max-width: 560) {
+@media screen only and (max-width: 560px) {
   .service {
     height: auto;
     margin: 0.77rem;
@@ -159,7 +160,7 @@ h1 {
 .info p {
   padding: 1rem 0;
 }
-@media screen only and (max-width: 560) {
+@media screen only and (max-width: 560px) {
   .info {
     width: 100%;
   }
@@ -185,7 +186,7 @@ footer img {
   margin-right: 1rem;
   margin-left: 2rem;
 }
-@media screen only and (max-width: 560) {
+@media screen only and (max-width: 560px) {
   footer {
     justify-content: center;
   }
