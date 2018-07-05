@@ -134,7 +134,7 @@ h1 {
   margin-bottom: 1rem;
 }
 .service img.paper-icon {
-  width: 3.5rem;
+  width: 5rem;
 }
 @media screen only and (max-width: 560) {
   .service {
@@ -168,7 +168,6 @@ h1 {
     max-width: none;
     margin-right: 0;
     text-align: center;
-    flex-wrap: wrap;
   }
   .info p {
     padding: 1rem;
