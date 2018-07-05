@@ -128,7 +128,6 @@ h1 {
   width: 5rem;
   margin: 3rem;
   text-align: center;
-  width: 100%;
 }
 .service img {
   width: 5rem;
@@ -142,6 +141,7 @@ h1 {
     height: auto;
     margin: 0.77rem;
     font-size: 0.77rem;
+    display: 100%;
   }
 }
 .info {
