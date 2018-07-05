@@ -64,7 +64,7 @@ h1 {
   font-size: 2rem;
   line-height: 1.2;
 }
-@media screen only and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   header {
     height: 22rem;
     padding-top: 0;
@@ -81,7 +81,7 @@ h1 {
     font-size: 1.33rem;
   }
 }
-@media screen only and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   nav ul {
     display: none;
   }
@@ -89,7 +89,7 @@ h1 {
     display: block;
   }
 }
-@media screen only and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   header div span {
     display: none;
   }
@@ -110,7 +110,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-@media screen only and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .supporting {
     flex-direction: column;
     justify-content: flex-start;
@@ -139,7 +139,7 @@ h1 {
 img {
   border-style: none;
 }
-@media screen only and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .service {
     height: auto;
     margin: 0.77rem;
@@ -163,7 +163,7 @@ img {
 .info p {
   padding: 1rem 0;
 }
-@media screen only and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .info {
     width: 100%;
   }
